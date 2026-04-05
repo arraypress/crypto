@@ -1,0 +1,25 @@
+{
+  "name": "@arraypress/crypto",
+  "version": "1.0.0",
+  "description": "AES-256-GCM encrypt/decrypt with PBKDF2 key derivation. Zero dependencies, Web Crypto API.",
+  "type": "module",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test tests/crypto.test.js"
+  },
+  "keywords": ["crypto", "encryption", "aes", "aes-256-gcm", "pbkdf2", "web-crypto"],
+  "author": "David Sherlock",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arraypress/crypto"
+  }
+}
